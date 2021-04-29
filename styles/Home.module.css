@@ -5,7 +5,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 100vh;
 }
 
 .main {
@@ -88,6 +87,7 @@
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   width: 45%;
+  list-style: none;
 }
 
 .card:hover,
@@ -118,4 +118,9 @@
     width: 100%;
     flex-direction: column;
   }
+}
+
+.contentImg {
+  max-width: 100%;
+  height: auto;
 }
